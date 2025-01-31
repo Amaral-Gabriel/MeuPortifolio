@@ -28,7 +28,7 @@ body {
 .apresentacao__conteudo {
     display: flex;
     flex-direction: column;
-    gap: 77px;
+    gap: 41px;
     margin: 0 10px;
     
 }
@@ -44,8 +44,10 @@ body {
 }
 
 .apresentacao__conteudo__links {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
+    row-gap: 15px;
 }
 
 .apresentacao__conteudo__links__link {
